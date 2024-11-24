@@ -1,0 +1,42 @@
+a = dict()
+print("number of records you want: " , end = "")
+n = int(input())
+for i in range (n):
+    name = input ("enter name: ")
+    bp = int(input(" enter basic pay: "))
+    hra = int(input("enter HRA: "))
+    con = int(input("enter conveynace: "))
+    a[name] = [bp , hra, con]
+    print() 
+print (\n, a)
+print ("name\tsalary")
+x = a.keys()
+for j in x:
+    print()
+    print(i , end="\t")
+    c = a[j]
+    gross_pay=sum(c)
+    print(gross_pay)
+
+'''
+a = {}
+n = int (input("number of records you want: "))
+for i in range (n):
+    name = input ("\nenter name: ")
+    bp = input(" enter basic pay: ")
+    hra = input("enter HRA: ")
+    con = input("enter conveynace: ")
+    a[name] = [bp , hra, con]
+x = a.keys()
+print("name\tnet salary")
+print(a)
+for i in x:
+    print()
+    print(i , end="\t")
+    y = a[i]
+    gross_pay=0
+    for j in y:
+        gross_pay = gross_pay + j
+    print (gross_pay, end = "\t")
+'''  
+
