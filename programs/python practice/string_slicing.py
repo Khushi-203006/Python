@@ -1,0 +1,13 @@
+a="Harry_potter_and_goblet_of_fire"
+b="0123456789"
+print(a)
+print(a[0:6])
+print(a[6:12])
+print(a[:])
+print(a[4:])
+print(a[11::2])
+print(a[::-1])
+print(a[11::-1])
+print(a[:14:-2])
+print(b[::2])
+print(b[:7:3])
